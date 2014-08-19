@@ -1,0 +1,504 @@
+default namespace = ""
+
+start =
+  notAllowed
+  | element batch-commands {
+      element global-options {
+        element browser { \string }?,
+        element debug { boolean-type }?,
+        element editor { \string }?,
+        element editor-prompt { boolean-type }?,
+        element force-new-browser { boolean-type }?,
+        element no-browser { boolean-type }?,
+        element non-interactive { boolean-type }?,
+        element password { \string }?,
+        element quiet { boolean-type }?,
+        element scm { \string }?,
+        element server-proxy-host { \string }?,
+        element server-proxy-port { \string }?,
+        element url { anyURI }?,
+        element user { \string }?,
+        element accurev-depot { \string }?,
+        element accurev-exe { \string }?,
+        element accurev-anc-algorithm { \string }?,
+        element ccrc-server-url { \string }?,
+        element ccrc-user { \string }?,
+        element ccrc-passwd { \string }?,
+        element clearcase-exe { \string }?,
+        element clearcase-update-snapshot { boolean-type }?,
+        element cvs-exe { \string }?,
+        element cvsroot { \string }?,
+        element git-exe { \string }?,
+        element git-skip-index { boolean-type }?,
+        element mercurial-exe { \string }?,
+        element mks-host { \string }?,
+        element mks-port { \string }?,
+        element mks-user { \string }?,
+        element mks-passwd { \string }?,
+        element mks-expand-keywords { boolean-type }?,
+        element p4 { \string }?,
+        element p4port { \string }?,
+        element p4user { \string }?,
+        element p4passwd { \string }?,
+        element p4client { \string }?,
+        element p4-ignore-integration-history { boolean-type }?,
+        element p4charset { \string }?,
+        element p4-require-empty-default-changelist { boolean-type }?,
+        element p4-specify-command-charset { boolean-type }?,
+        element ccm-exe { \string }?,
+        element ccm-user { \string }?,
+        element ccm-passwd { \string }?,
+        element ccm-engine-host { \string }?,
+        element ccm-database-path { \string }?,
+        element ccm-local-database-path { \string }?,
+        element ccm-remote-client { boolean-type }?,
+        element ccm-server-url { \string }?,
+        element stcmd-exe { \string }?,
+        element svn-exe { \string }?,
+        element svn-look-exe { \string }?,
+        element svn-repo-url { \string }?,
+        element svn-user { \string }?,
+        element svn-passwd { \string }?,
+        element svn-require-client-certificate-password {
+          boolean-type
+        }?,
+        element svn-auto-add { boolean-type }?,
+        element svn-recurse-externals { boolean-type }?,
+        element svn-repo-path { \string }?,
+        element surround-exe { \string }?,
+        element surround-server { \string }?,
+        element surround-single-sign-on { boolean-type }?,
+        element surround-user { \string }?,
+        element surround-passwd { \string }?,
+        element tfs-collection { \string }?,
+        element tfs-server { \string }?,
+        element tfs-exe { \string }?,
+        element tfs-user { \string }?,
+        element tfs-passwd { \string }?,
+        element vault-profile { \string }?,
+        element vault-server { \string }?,
+        element vault-repo { \string }?,
+        element vault-user { \string }?,
+        element vault-passwd { \string }?,
+        element vault-proxy-domain { \string }?,
+        element vault-proxy-server { \string }?,
+        element vault-proxy-port { \string }?,
+        element vault-proxy-user { \string }?,
+        element vault-proxy-passwd { \string }?,
+        element vss-passwd { \string }?,
+        element vss-exe { \string }?,
+        element vss-user { \string }?
+      }?,
+      (element admin_changelist_update-id {
+         element old-id { \string },
+         element new-id { \string }
+       }
+       | element admin_group_member_remove {
+           element admin { \string }?,
+           element all-users { boolean-type }?,
+           element group { \string }?,
+           element user { \string }?,
+           element guid { \string }
+         }
+       | element admin_group_member_add {
+           element admin { \string }?,
+           element all-users { boolean-type }?,
+           element group { \string }?,
+           element user { \string }?,
+           element guid { \string }
+         }
+       | element admin_group_sync {
+           element create-users { boolean-type }?,
+           element delete-groups { boolean-type }?,
+           element syncfile { \string }
+         }
+       | element admin_group_delete {
+           element group { \string }
+         }
+       | element admin_group_edit {
+           element allow-associate-with-reviews { boolean-type }?,
+           element description { \string }?,
+           element enabled { boolean-type }?,
+           element title { \string }?,
+           element guid { \string }
+         }
+       | element admin_group_create {
+           element allow-associate-with-reviews { boolean-type }?,
+           element description { \string }?,
+           element enabled { boolean-type }?,
+           element title { \string }?,
+           element guid { \string }
+         }
+       | element admin_trigger_create-review {
+           element add-on-match { boolean-type }?,
+           element review-id-regex { \string }?,
+           element changelist { \string }
+         }
+       | element admin_trigger_update-changelist {
+           element description-prefix { \string },
+           element description-template { \string },
+           element changelist-spec { \string }
+         }
+       | element admin_trigger_ensure-diffs-reviewed {
+           element ignore-integrate { boolean-type }?,
+           element no-keywords { boolean-type }?,
+           element review-id-regex { \string }?,
+           element changelist-id { \string }
+         }
+       | element admin_trigger_ensure-content-reviewed {
+           element ignore-integrate { boolean-type }?,
+           element no-keywords { boolean-type }?,
+           element review-id-regex { \string }?,
+           element changelist-id { \string }
+         }
+       | element admin_trigger_ensure-reviewed {
+           element ignore-integrate { boolean-type }?,
+           element review-id-regex { \string }?,
+           element changelist-id { \string }
+         }
+       | element admin_trigger_ensure-review-started {
+           element ignore-integrate { boolean-type }?,
+           element review-id-regex { \string }?,
+           element changelist-id { \string }
+         }
+       | element admin_user_file-subscription_delete {
+           element user { \string },
+           element file-pattern { \string }
+         }
+       | element admin_user_file-subscription_edit {
+           element new-file-pattern { \string }?,
+           element role { \string }?,
+           element user { \string },
+           element file-pattern { \string }
+         }
+       | element admin_user_file-subscription_create {
+           element user { \string },
+           element file-pattern { \string },
+           element role { \string }
+         }
+       | element admin_user_author-subscription_delete {
+           element user { \string },
+           element author { \string }
+         }
+       | element admin_user_author-subscription_edit {
+           element user { \string },
+           element author { \string },
+           element role { \string }
+         }
+       | element admin_user_author-subscription_create {
+           element user { \string },
+           element author { \string },
+           element role { \string }
+         }
+       | element admin_user_edit {
+           element admin { boolean-type }?,
+           element email { \string }?,
+           element enabled { boolean-type }?,
+           element full-name { \string }?,
+           element new-login { \string }?,
+           element password { \string }?,
+           element phone-number { \string }?,
+           element user { \string }
+         }
+       | element admin_user_create {
+           element admin { boolean-type }?,
+           element email { \string }?,
+           element enabled { boolean-type }?,
+           element full-name { \string }?,
+           element new-login { \string }?,
+           element password { \string }?,
+           element phone-number { \string }?,
+           element user { \string }
+         }
+       | element admin_review_conversation_accept {
+           element conversation-id { \string }?,
+           element label { \string }?,
+           element line-number { \string }?,
+           element page { \string }?,
+           element file { \string }?,
+           element version { \string }?,
+           element x { \string }?,
+           element y { \string }?,
+           element review { \string }
+         }
+       | element admin_review_conversation_mark-read {
+           element conversation-id { \string }?,
+           element label { \string }?,
+           element line-number { \string }?,
+           element page { \string }?,
+           element file { \string }?,
+           element version { \string }?,
+           element x { \string }?,
+           element y { \string }?,
+           element review { \string }
+         }
+       | element admin_review_defect_delete {
+           element defect { defect-ref-type }
+         }
+       | element admin_review_defect_mark-open {
+           element defect { defect-ref-type }
+         }
+       | element admin_review_defect_mark-not-external {
+           element defect { defect-ref-type }
+         }
+       | element admin_review_defect_mark-external {
+           element defect { defect-ref-type },
+           element external-name { \string }
+         }
+       | element admin_review_defect_mark-fixed {
+           element defect { defect-ref-type }
+         }
+       | element admin_review_defect_edit {
+           element comment { \string }?,
+           element custom-field { \string }*,
+           element defect { defect-ref-type }
+         }
+       | element admin_review_defect_create {
+           element conversation-id { \string }?,
+           element custom-field { \string }*,
+           element label { \string }?,
+           element line-number { \string }?,
+           element page { \string }?,
+           element file { \string }?,
+           element version { \string }?,
+           element x { \string }?,
+           element y { \string }?,
+           element review { \string },
+           element comment { \string }
+         }
+       | element admin_review_comment_redact {
+           element comment-id { \string }
+         }
+       | element admin_review_comment_create {
+           element annotation { boolean-type }?,
+           element conversation-id { \string }?,
+           element label { \string }?,
+           element line-number { \string }?,
+           element page { \string }?,
+           element file { \string }?,
+           element version { \string }?,
+           element x { \string }?,
+           element y { \string }?,
+           element review { \string },
+           element comment { \string }
+         }
+       | element admin_review_participant_poke {
+           element review { \string },
+           element participant { \string }
+         }
+       | element admin_review_participant_remove {
+           element review { \string },
+           element participant { \string }
+         }
+       | element admin_review_participant_assign {
+           element review { \string },
+           element participant { \string },
+           element role { \string }
+         }
+       | element admin_review_set-participants {
+           element participant { \string }+,
+           element review { \string }
+         }
+       | element admin_review_copy-participants {
+           element from-review { review-ref-type },
+           element to-review { \string }
+         }
+       | element admin_review_annotate {
+           element review { \string }
+         }
+       | element admin_review_finish {
+           element until { \string }?,
+           element review { \string }
+         }
+       | element admin_review_wait {
+           element until { \string }?,
+           element review { \string }
+         }
+       | element admin_review_reject {
+           element reason { \string }?,
+           element review { \string }
+         }
+       | element admin_review_cancel {
+           element review { \string }
+         }
+       | element admin_review_delete {
+           element review { \string }
+         }
+       | element admin_review_edit {
+           element custom-field { \string }*,
+           element deadline { \string }?,
+           element display-changelists-as { \string }?,
+           element group { \string }?,
+           element participant-custom-field { \string }*,
+           element restrict-access { \string }?,
+           element template { \string }?,
+           element title { \string }?,
+           element review { \string }
+         }
+       | element admin_review_create {
+           element creator { \string }?,
+           element custom-field { \string }*,
+           element deadline { \string }?,
+           element display-changelists-as { \string }?,
+           element group { \string }?,
+           element participant-custom-field { \string }*,
+           element restrict-access { \string }?,
+           element template { \string }?,
+           element title { \string }?
+         }
+       | element admin_config_custom-field_edit {
+           element drop-down-item { \string }*,
+           element custom-field { \string }
+         }
+       | element admin_wget {
+           element relative-url { \string }
+         }
+       | element admin_batch {
+           element commands-file { \string }
+         }
+       | element admin_review-xml {
+           element xpath { \string }?,
+           element xsl-file { \string }?,
+           element review { \string }+
+         }
+       | element admin_syncusers { empty }
+       | element addurls {
+           element upload-comment { \string }?,
+           element review { \string },
+           element urls { \string }+
+         }
+       | element addp4job {
+           element review { \string },
+           element job-name { \string }
+         }
+       | element commit {
+           element comment { \string }?,
+           element dismiss-only { boolean-type }?,
+           element force { boolean-type }?,
+           element review { \string }
+         }
+       | element browse {
+           element review { review-ref-type }?
+         }
+       | element addstream {
+           element upload-comment { \string }?,
+           element review { \string },
+           element stream { \string }?
+         }
+       | element addtrack {
+           element upload-comment { \string }?,
+           element review { \string },
+           element defect-name { \string },
+           element release-name { \string },
+           element root-path { \string }?
+         }
+       | element actionitems { empty }
+       | element addactivity {
+           element diffintegration { boolean-type }?,
+           element upload-comment { \string }?,
+           element review { \string },
+           element activity-name { \string }+
+         }
+       | element addversions {
+           element upload-comment { \string }?,
+           element version-spec { \string }*,
+           element review { \string },
+           element file-path { \string }?,
+           element version { \string }?,
+           element predecessor-version { \string }?
+         }
+       | element addvssdiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element addstdiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element addp4diffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element p4-diff-arg { \string }*
+         }
+       | element addhgdiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element addgitdiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element git-diff-arg { \string }*
+         }
+       | element addcvsdiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element addardiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element addsvndiffs {
+           element upload-comment { \string }?,
+           element review { \string },
+           element user-diff-arg { \string }*
+         }
+       | element adddiffs {
+           element relative { boolean-type }?,
+           element upload-comment { \string }?,
+           element review { \string },
+           element before { \string },
+           element after { \string }?
+         }
+       | element addchangelist {
+           element review { \string },
+           element changelist { \string }+
+         }
+       | element addfiles {
+           element relative-to { \string }?,
+           element upload-comment { \string }?,
+           element review { \string },
+           element file-path { \string }+
+         }
+       | element addchanges {
+           element diffbranch { \string }?,
+           element upload-comment { \string }?,
+           element review { \string },
+           element file-spec { \string }+
+         }
+       | element set {
+           element key { \string }?,
+           element value { \string }?
+         }
+       | element logout { empty }
+       | element login {
+           element url { anyURI }?,
+           element user { \string }?,
+           element password { \string }?,
+           element server-proxy-host { \string }?,
+           element server-proxy-port { \string }?
+         }
+       | element info { empty }
+       | element help {
+           element show-all { boolean-type }?,
+           element topic { \string }?
+         })*
+    }
+defect-ref-type = xsd:string { pattern = "\d+|last" }
+\string = xsd:string
+review-ref-type = xsd:string { pattern = "\d+|new|last|ask" }
+boolean-type =
+  xsd:string ""
+  | xsd:string "yes"
+  | xsd:string "no"
+  | xsd:string "off"
+  | xsd:string "n"
+  | xsd:string "on"
+  | xsd:string "false"
+  | xsd:string "true"
+  | xsd:string "y"
+anyURI = xsd:anyURI
