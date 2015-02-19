@@ -48,6 +48,9 @@
 (require 'windmove)
 (require 'smex)
 
+(eval-after-load 'tramp
+  '(vagrant-tramp-enable))
+
 (defun adam-rspec (prefix)
   (interactive "p")
   (with-temp-buffer
@@ -81,6 +84,7 @@
 					;  (enh-ruby-end-of-block)
   (ruby-end-of-block)
   )
+
 (ido-mode 1)
 (ido-vertical-mode 1)
 (auto-indent-global-mode)
@@ -100,6 +104,7 @@
 (setq guide-key/guide-key-sequence '("C-x" "C-c"))
 (setq guide-key/popup-window-position 'bottom)
 (setq guide-key/recursive-key-sequence-flag t)
+(setq tramp-default-method "ssh")
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'ruby-mode-hook 'flymake-ruby-load)
