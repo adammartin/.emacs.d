@@ -15,7 +15,7 @@
  '(magit-diff-options (quote ("--ignore-all-space")))
  '(magit-item-highlight-face (quote bold))
  '(magit-use-overlays nil)
- '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
+ '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("melpa-stable" . "http://stable.melpa.org/packages/"))))
  '(show-trailing-whitespace t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
