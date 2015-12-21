@@ -100,6 +100,7 @@
 (winner-mode 1)
 (guide-key-mode 1)
 
+(setq python-indent 4)
 (setq hs-allow-nesting t)
 (setq guide-key/guide-key-sequence '("C-x" "C-c"))
 (setq guide-key/popup-window-position 'bottom)
@@ -152,3 +153,8 @@
 
 (when (eq system-type 'darwin)
   (exec-path-from-shell-initialize))
+
+(defun adam/python-hook ()
+  (setq python-indent-offset 4))
+
+(add-hook 'python-mode-hook 'adam/python-hook)
