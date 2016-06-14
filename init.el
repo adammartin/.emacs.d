@@ -137,6 +137,10 @@
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 
+;; Unbind Pesky Sleep Button
+(global-unset-key [(control z)])
+(global-unset-key [(control x)(control z)])
+
 (windmove-default-keybindings)
 (put 'downcase-region 'disabled nil)
 

@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <15/12/17 16:57:02 /Users/adammartin/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/06/14 09:35:57 /Users/adammartin1/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -9,25 +9,12 @@
   ("remote-path"
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("stat" "\\stat")
-  ("file-exists" "test -e")
-  ("id" "/usr/bin/id")
-  ("gid-string" "vagrant")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
   ("readlink" "\\readlink")
-  ("ls" "/bin/ls --color=never")
-  ("ls-dired" t)
+  ("file-exists" "test -e")
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
   ("gid-integer" 1000)
-  ("git" "\\git")
-  ("gvfs-monitor-dir" nil)
-  ("inotifywait" nil)
-  ("uid-integer" 1000)
-  ("tmpdir" "/vagrant:HISC_default:/tmp")
-  ("touch-t" t)
-  ("touch" "\\touch")
-  ("trash" nil))
+  ("gid-string" "vagrant"))
  (["ssh" "ciaadmin" "hisc-linux-slave1.cloudapp.net" nil nil]
   ("locale" "LC_ALL=en_US.utf8")
   ("uname" "Linux 3.19.0-28-generic")
