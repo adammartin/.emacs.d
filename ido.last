@@ -1,0 +1,201 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/adammartin1/Programming/css/" . "HISC_Vincent_Customizations/")
+ ("/vagrant:HISC_default:Programming/salt/hisc-salt/salt/content-presentation/" . "insight-exporter/")
+ ("/vagrant:HISC_default:Programming/salt/hisc-salt/salt/" . "content-presentation/")
+ ("/vagrant:HISC_default:Programming/salt/hisc-salt/pillar/hisc/" . "content-presentation/")
+ ("/vagrant:HISC_default:Programming/salt/hisc-salt/pillar/" . "hisc/")
+ ("/vagrant:HISC_default:Programming/salt/hisc-salt/" . "pillar/")
+ ("/vagrant:HISC_default:Programming/salt/" . "hisc-salt/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/pillar/hisc/" . "content-presentation/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/pillar/" . "hisc/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/salt/content-presentation/" . "nginx/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/salt/" . "content-presentation/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/" . "pillar/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/salt/" . "hisc-salt/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/routes/" . "views/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/" . "record/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/" . "record/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/repository/" . "builders/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/repository/" . "builders/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/" . "repository/")
+ ("/Users/adammartin1/Programming/ruby/Stalingrad/" . "lib/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/" . "cache/")
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/" . "lib/")
+ ("/vagrant:EXAMPLE_default:/" . "home/")
+ ("/vagrant:EXAMPLE_default:/home/vagrant/Programming/ruby/" . "ClearCareCollector/")
+ ("/vagrant:EXAMPLE_default:/home/vagrant/Programming/" . "ruby/")
+ ("/vagrant:EXAMPLE_default:/home/vagrant/" . "Programming/")
+ ("/vagrant:EXAMPLE_default:/home/" . "vagrant/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/acceptance-tests/features/" . "support/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/acceptance-tests/" . "features/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/spec/" . "auth/")
+ ("/Users/adammartin1/Programming/python/" . "GameOfLife/")
+ ("/Users/adammartin1/" . "Programming/")
+ ("/Users/adammartin1/Programming/ruby/" . "InsightExporter/")
+ ("/Users/adammartin1/Programming/" . "ruby/")
+ ("/vagrant:HISC_default:Programming/ruby/" . "RosettaStone/")
+ ("/vagrant:HISC_default:Programming/" . "ruby/")
+ ("/vagrant:HISC_default:" . "Programming/")
+ ("/vagrant:HISC_default:/" . "home/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/" . "smoke-tests/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/ruby/" . "RosettaStone/")
+ ("/vagrant:HISC_default:/home/vagrant/Programming/" . "ruby/")
+ ("/vagrant:HISC_default:/home/vagrant/" . "Programming/")
+ ("/vagrant:HISC_default:/home/" . "vagrant/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/adammartin1/Programming/ruby/InsightExporter/"
+ "/Users/adammartin1/Programming/css/HISC_Vincent_Customizations/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/element/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/element/"
+ "/vagrant:HISC_default:Programming/ruby/RosettaStone/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/salt/"
+ "/vagrant:HISC_default:Programming/salt/hisc-salt/pillar/hisc/content-presentation/"
+ "/vagrant:HISC_default:Programming/salt/hisc-salt/salt/content-presentation/insight-exporter/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/routes/views/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/pillar/hisc/content-presentation/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/cache/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/repository/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/repository/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/routes/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/SampleClient/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/salt/hisc-salt/salt/content-presentation/nginx/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/security/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/security/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/repository/builders/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/record/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/record/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/cache/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/repository/builders/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/config/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/DRAGON-ClearCareCollector/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/spec/"
+ "/Users/adammartin1/Programming/ruby/Stalingrad/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/smoke-tests/spec/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/bin/"
+ "/Users/adammartin1/Programming/ruby/trello-kanban/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/test/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/qa/"
+ "/Users/adammartin1/Programming/ruby/InsightExporter/lib/views/"
+ "/Users/adammartin1/Programming/ruby/Stalingrad/lib/"
+ "/vagrant:EXAMPLE_default:/home/vagrant/"
+ "/vagrant:EXAMPLE_default:"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/acceptance-tests/features/support/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/spec/auth/"
+ "/Users/adammartin1/Programming/ruby/DragonTest/"
+ "/Users/adammartin1/Programming/python/GameOfLife/"
+ "/vagrant:HISC_default:Programming/ruby/SampleClient/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/ClearCareCollector/"
+ "/vagrant:HISC_default:/home/vagrant/Programming/ruby/RosettaStone/smoke-tests/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.md"
+ "element_name_converter.rb"
+ "element_name_converter_spec.rb"
+ "init.sls"
+ ".reek"
+ "service.sls"
+ ".env"
+ "unauthorized.erb"
+ "config.ru"
+ "cached_repository_factory.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/" (22754 41626 0 0) "spec/" "roodi.yml" "README.md" "Rakefile" "lib/" "Gemfile.lock" "Gemfile" "coverage/" "config.ru" "bin/" ".ruby-version" ".rubocop.yml" ".rspec" ".reek" ".gitignore" ".git/" ".env.test.example" ".env.example" ".env" "../" "./")
+
+ ("/Users/adammartin1/" (22755 63426 0 0) "VirtualBox VMs/" "vagrant/" "tmp/" "Public/" "Programming/" "PrivateConf.json" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "dawnscanner/" "customscripts/" "cacert.pem" "ca.crt" "Applications/" "AndroidStudioProjects/" "1234.something.14478.jsonl" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-AdamMacPro-5.0.8" ".virtualenvs/" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".smex-items" ".sdkman/" ".rvm/" ".rnd" ".python_history" ".pry_history" ".profile" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mkshrc" ".m2/" ".local/" ".lesshst" ".irb-history" ".gradle/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".DS_Store" ".dropbox/" ".dawnscanner.yaml" ".cups/" ".config/" ".CFUserTextEncoding" ".cf/" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".azure/" ".anyconnect" ".android/" "../" "./")
+
+ ("/Users/adammartin1/Programming/css/HISC_Vincent_Customizations/" (22732 4801 0 0) "README.md" ".git/" "../" "./")
+
+ ("/Users/adammartin1/Programming/css/" (22732 4752 0 0) "HISC_Vincent_Customizations/" "../" "./")
+
+ ("/Users/adammartin1/Programming/" (22732 4614 0 0) "webdriver/" "Shell/" "ruby/" "python/" "pillar/" "ObjectiveC/" "Node_With_C++_Example/" "node/" "javascript/" "java/" "iOS/" "Groovy/" "grails-projects/" "Grails/" "generic/" "eclipse.sh" "DevNexus/" "deere/" "css/" "clojure/" "c++/" "blog/" ".DS_Store" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/element/" (22549 4996 0 0) "period_element_converter.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/element/" (22549 5095 0 0) "period_element_converter_spec.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/" (22555 13524 0 0) "support/" "spec_helper.rb" "security/" "repository/" "converters/" "config_spec.rb" "cache/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/cache/" (22555 18563 0 0) "cached_repository_spec.rb" "cached_repository_factory_spec.rb" "cached_data_retriever_spec.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/security/" (22555 41558 0 0) "user_spec.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/routes/" (22555 41954 0 0) "views/" "secure_base.rb" "root.rb" "public/" "monitor.rb" "employment.rb" "cache.rb" "base.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/repository/" (22554 45231 0 0) "repository_spec.rb" "repository_factory_spec.rb" "paged_result_spec.rb" "paged_data_retriever_spec.rb" "oauth2_client_factory_spec.rb" "data_retriever_spec.rb" "data_retriever_factory_spec.rb" "builders/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/repository/" (22554 45196 0 0) "repository_factory.rb" "repository.rb" "paged_result.rb" "oauth2_client_factory.rb" "data_retriever_factory.rb" "data_retriever.rb" "builders/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/cache/" (22554 45476 0 0) "cached_repository_factory.rb" "cached_repository.rb" "cached_data_retriever.rb" "cache.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/routes/views/" (22555 17501 0 0) "unauthorized.erb" "table_header.erb" "pop_over_script.erb" "network_employment.erb" "layout.erb" "export.erb" "error.erb" "employment.erb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/security/" (22555 41628 0 0) "user.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/" (22555 40499 0 0) "tasks/" "security/" "routes/" "repository/" "converters/" "config.rb" "config/" "cache/" "application.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/config/" (22554 16171 0 0) "test.config.yml" "prod.config.yml" "dev.config.yml" "config.yml" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/repository/builders/" (22550 48009 0 0) "network_data_builders.rb" "network_client_data_builder.rb" "monthly_network_data_builder.rb" "monthly_franchise_data_builder.rb" "franchise_data_builders.rb" "franchise_client_data_builder.rb" "end_of_month_network_data_builder.rb" "end_of_month_franchise_data_builder.rb" "data_builder.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/record/" (22550 43208 0 0) "retention_converter.rb" "net_employment_converter.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/record/" (22550 41796 0 0) "retention_converter_spec.rb" "net_employment_converter_spec.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/converters/" (22550 38297 0 0) "record/" "employment_data_converter.rb" "element/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/converters/" (22550 38229 0 0) "record/" "employment_data_converter_spec.rb" "element/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/qa/" (22547 39543 0 0) "rubocop.rake" "roodi.rake" "reek.rake" "flay.rake" "bundler_audit.rake" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/spec/repository/builders/" (22546 28579 0 0) "network_data_builders_spec.rb" "network_client_data_builder_spec.rb" "monthly_network_data_builder_spec.rb" "monthly_franchise_data_builder_spec.rb" "franchise_data_builders_spec.rb" "franchise_client_data_builder_spec.rb" "end_of_month_network_data_builder_spec.rb" "end_of_month_franchise_data_builder_spec.rb" "../" "./")
+
+ ("/Users/" (22433 1859 0 0) "test/" "Shared/" "interviewuser/" "Guest/" "adammartin1/" "adammartin/" ".localized" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/bin/" (22544 9657 0 0) "local_setup" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/" (22536 61871 0 0) "test.rake" "test/" "smoke.rake" "qa.rake" "qa/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/smoke-tests/spec/" (22536 49856 0 0) "spec_helper.rb" "config_example.yml" "config.yml" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/trello-kanban/" (22528 53080 0 0) "spec/" "runner.rb" "README.md" "rakefile.rb" "lib/" "Gemfile.lock" "Gemfile" "coverage/" "config/" ".rubocop_todo.yml" ".rubocop.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/tasks/test/" (22528 52866 0 0) "rspec.rake" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/Stalingrad/lib/" (22527 40950 0 0) "views/" "valid_reviewers_parser_decorator.rb" "templates/" "template_factory.rb" "stalingrad_context.rb" "stalingrad.rb" "server_status.rb" "safe_json.rb" "review_administrator.rb" "review_admin_xml.rb" "retry/" "push_parser.rb" "pull_request_parser.rb" "public/" "operations/" "log_exceptions.rb" "lockout_delegate.rb" "locked_user_reporter.rb" "json_store.rb" "invalid_user_reporter.rb" "hook_registrator.rb" "git_repo_populator.rb" "git_hub_to_code_collaborator.rb" "git_hub_client.rb" "failed_build_parser.rb" "fail_safe_defect_admin.rb" "defect_admin.rb" "data_store.rb" "config_loader.rb" "config_default.yaml" "command_line_executor.rb" "client_factory.rb" "cache/" "build_result_admin.rb" "aspects/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/InsightExporter/lib/views/" (22528 6018 0 0) "layout.erb" "export.erb" "employment.erb" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/RosettaStone/" (22424 56598 0 0) "configs/" ".DS_Store" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/Stalingrad/" (21873 51001 0 0) "spec/" "run_debug.bat" "README.md" "rackup-stalingrad" "lib/" "Guardfile" "Gemfile.lock" "Gemfile" "coverage/" "config.ru" "cacert.pem" "bin/" "acceptance-tests/" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/" (22521 34893 0 0) "yconfig/" "trello-kanban/" "Stalingrad/" "SimpleRestEndpoint/" "RosettaStone/" "ProJenn/" "parser/" "main/" "koans/" "katas/" "InsightExporter/" "HelloWorldAlexander/" "gimme/" "file_examples.rb" "example/" "EulerPractice-15Feb2011/" "DRAGON-ClearCareCollector/" "cyclo/" "config.yml" "ClearCareSDK/" "ClearCareClient/" "cache.json" "cacert.pem" "azure-documentdb-rubysdk/" "Alexander/" ".DS_Store" ".bundle/" "../" "./")
+
+ ("/Users/adammartin1/Programming/ruby/DragonTest/" (22445 50058 0 0) "perf_test.rb" ".#perf_test.rb" "../" "./")
+
+ ("/Users/adammartin1/Programming/python/GameOfLife/test/" (22082 37200 0 0) "rules_test.py" "life_counter_test.py" "board_test.py" "__pycache__/" "__init__.py" "../" "./")
+
+ ("/Users/adammartin1/Programming/python/GameOfLife/" (22083 43843 0 0) "test/" "setup.py" "setup.cfg" "requirements.txt" "README.md" "paver-minilib.zip" "pavement.py" "nosetests.xml" "game_of_life.egg-info/" "game/" "dist/" "coverage.xml" "build/" "__pycache__/" ".gitignore" ".git/" ".coverage" "../" "./")
+
+ ("/Users/adammartin1/Programming/python/" (22412 55395 0 0) "sample/" "prime_factors/" "GameOfLife/" "dragon-eb/" "azure/" "Alexander/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
